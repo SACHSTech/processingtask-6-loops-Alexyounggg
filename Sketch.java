@@ -10,7 +10,7 @@ public class Sketch extends PApplet {
    */
   public void settings() {
 	// put your size call here
-    size(750, 750);
+    size(500, 500);
   }
 
   /** 
@@ -28,8 +28,8 @@ public class Sketch extends PApplet {
 	  
     //Quad One
 
-    for (int circleY = height/40; circleY < height/2; circleY += height/2/5){
-      for (int circleX = width/18 * 17; circleX > width/2; circleX -= width/2/5){
+    for (int circleY = height/20; circleY < height/2; circleY += height/2/5){
+      for (int circleX = width/19 * 18; circleX > width/2; circleX -= width/2/5){
         fill(255);
         ellipse(circleX, circleY, width/40, height/40);
       }
